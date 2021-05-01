@@ -1,8 +1,167 @@
-<html>
-    <head><title>
-        PFC Validator
-    </title></head>
-    <body>
-        welcome!
-    </body>
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>PFC - Your Community Terra Validator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/pete.jpg">
+    <!-- Place favicon.png in the root directory -->
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-1.min.css">
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- ========================= preloader start ========================= -->
+<div class="preloader d-none">
+    <div class="loader">
+        <div class="ytp-spinner">
+            <div class="ytp-spinner-container">
+                <div class="ytp-spinner-rotator">
+                    <div class="ytp-spinner-left">
+                        <div class="ytp-spinner-circle"></div>
+                    </div>
+                    <div class="ytp-spinner-right">
+                        <div class="ytp-spinner-circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- preloader end -->
+
+<!-- ========================= header start ========================= -->
+<header class="header navbar-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/img/pete.jpg" height="50" alt="Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="toggler-icon"></span>
+                        <span class="toggler-icon"></span>
+                        <span class="toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                        <ul id="nav" class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="page-scroll active" href="#home">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="page-scroll" href="#projects">Projects</a>
+                            </li>
+
+                        </ul>
+                    </div> <!-- navbar collapse -->
+                </nav> <!-- navbar -->
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+
+</header>
+<!-- ========================= header end ========================= -->
+
+<!-- ========================= hero-section start ========================= -->
+<section id="home" class="hero-section">
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-7 col-lg-7">
+                <div class="hero-content-wrapper">
+                    <h1 class="text-white wow fadeInDown" data-wow-delay=".2s">PFC Validator</h1>
+                    <p class="text-white wow fadeInLeft"  data-wow-delay=".4s">PFC is a premium validator on the Terra network, running on Google's GCP. A Tier 1 hosting provider.</p>
+                    <p class="text-white wow fadeInLeft">We believe in automation and giving back to the community. We are not here to get rich off you. (That is what LUNA is for, and we are all in!).
+                        That's why our rates are only 1% (capped at a maximum of 5%). We charge enough to cover our costs.
+
+                    </p>
+                    <p class="text-white wow fadeInLeft"  data-wow-delay=".6s">We also believe in giving back. We make all our <a href="https://github.com/petes-fan-club/terra-scripts">automation scripts</a> available as open source so that other validators can use them, and are quite active on the Discord channels helping others when we can.</p>
+                    <p class="text-white wow fadeInLeft"  data-wow-delay=".6s">Our team has been developing & running software for decades. We're good at it.</p>
+
+                    <a href="https://station.terra.money/validator/terravaloper12g4nkvsjjnl0t7fvq3hdcw7y8dc9fq69nyeu9q" class="theme-btn wow fadeInUp"  data-wow-delay=".6s">Delegate your LUNA Now</a>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-5">
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ========================= hero-section end ========================= -->
+
+<!-- ========================= projects-section start ========================= -->
+<section id="projects" class="projects-section pt-150 pb-120">
+    <div class="container ">
+        <div class="row">
+            <h1>Open Source</h1>
+            <p>We made our livelihoods using open source software, so we believe in paying it forward. Our aim is to make ALL Terra validators better.</p><br />
+        </div><br/>
+
+        <div class="row">
+            <h4>Automation</h4>
+            <p>Don't do the same thing twice is our motto. <a href="https://github.com/petes-fan-club/terra-scripts">Automation</a> is key for that. </p><br/>
+        </div><br/>
+        <div class="row">
+            <h4>Tooling</h4>
+            <p>Rust is the future. So we have develop & maintain the <a href="https://crates.io/crates/terra-rust-api">Terra-Rust API</a> crate</p>.
+            <p> This is used in our <a href="https://github.com/PFC-Validator/terra-rust">Terra Rust CLI</a> which is cross platform, and in our soon to be released 'Terra-Rust' Oracle Feeder.</p>
+        </div>
+        <a href="https://station.terra.money/validator/terravaloper12g4nkvsjjnl0t7fvq3hdcw7y8dc9fq69nyeu9q" rel="nofollow" target="_blank" class="theme-btn wow fadeInUp" data-wow-delay=".6s">Stake</a>
+
+    </div>
+</section>
+<!-- ========================= projects-section end ========================= -->
+
+
+<!-- ========================= footer start ========================= -->
+<footer class="footer pt-100 img-bg" style="background-image: url(assets/img/common-bg.jpg)">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="footer-widget mb-60 wow fadeInLeft" data-wow-delay=".2s">
+                    <a href="index.html" class="logo mb-40"><img src="assets/img/pete.jpg" alt=""></a>
+                    <p class="mb-30">PFC Validator. </p>
+                    <div class="footer-social-links">
+                        <ul>
+                            <li><a href="https://twitter.com/PFC_Validator"><i class="lni lni-twitter-filled"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="copyright-area">
+            <p class="mb-0 text-center">Template By <a href="https://uideck.com" rel="nofollow" target="_blank">UIdeck</a></p>
+        </div>
+    </div>
+</footer>
+<!-- ========================= footer end ========================= -->
+
+
+<!-- ========================= scroll-top ========================= -->
+<a href="#" class="scroll-top">
+    <i class="lni lni-chevron-up"></i>
+</a>
+
+<!-- ========================= JS here ========================= -->
+<script src="assets/js/bootstrap.bundle-5.0.0.alpha-1-min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
 </html>
